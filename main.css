@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+* { 
+  outline: 1px solid black;
+}
+/*
+
+/*What follows is my from scratch css code*/
+
+#header {
+	height: 60px;
+	display: block;
+}
+
+#nav {
+	float:right;
+	height: 60px;
+	line-height: 60px;
+	cursor: default;
+}
+
+
+a {
+	font-family: arial,sans-serif;
+	font-size: small;
+	display: inline;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #555555;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer a {
+	line-height: 40px;
+}
+
+#grid {
+	position:relative;
+	top: 5px;
+	height: 21px;
+	width: 21px;
+	display:inline;
+	margin-left: 7px;
+	cursor: default;
+}
+
+#grida {
+	cursor: default;
+}
+
+#signin {
+	color: #fff;
+	cursor: default;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
+	margin-right: 30px;
+	margin-left: 6px;
+}
+
+#signin:hover {
+	text-decoration: none;
+	border-bottom: solid 1px gainsboro;
+}
+
+#logodiv {
+	height:231px;
+	width:980px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#logo {
+	display: block;
+	width: 269px;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 112px;
+}
+
+#formdiv {
+	height: 102px; 
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	margin-left: auto;
+	Margin-right: auto;
+	width: 570px;
+	height: 90px;
+}
+
+table {
+	width: 570px;
+	height: 28px;
+	padding: 0;
+	border: solid 1px silver;
+}
+
+table:hover {
+	border-top: solid 1px #a0a0a0;
+	border-right: solid 1px #a0a0a0;
+	border-bottom: solid 1px #a0a0a0;
+	border-left: solid 1px #a0a0a0;
+}
+
+tr {
+	width: 500px;
+	height: 20px;
+	padding: 0;
+}
+
+td {
+	height: 28px;
+	padding: 0;
+}
+
+#tdsearch {
+	width: 570px; 
+	height: 28px;
+}
+
+#search {
+	border: none;
+	width: 558px; 
+	height: 28px;
+	display: block;
+	padding-left: 10px;
+	background-image: url(images/microphone.png);
+	background-repeat: no-repeat;
+	background-size: 24px;
+    background-position: right center; 
+}
+
+/*width: 246px;*/
+#buttoncontainer {
+	height: 62px;
+	width: 248px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	display: inline-block;
+	font: bold 11px/27px Arial,sans-serif!important;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 27px;
+	color: #444;
+	padding: 0px 8px;
+	margin: 16px 8px;
+	border: 1px solid #dcdcdc;
+	background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	cursor: default!important;
+	height: 29px;
+	line-height: 29px;
+	min-width: 54px;
+	text-align: center;
+	text-decoration: none!important;
+	border-radius: 2px;
+	-webkit-user-select: none;
+	box-sizing: border-box;
+}
+
+button:hover {
+	border-color: #c6c6c6;
+	background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	border-bottom: solid 2px #d8d8d8;
+}
+
+#googlesearch {
+	width: 98px;
+}
+
+#feelinglucky {
+	width: 114;
+}
+
+#footer {
+	height: 40px;
+	min-width: 980px;
+	background-color: #f2f2f2;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	border-top: solid 1px Gainsboro;
+	padding: 0px;
+}
+
+#leftfooter {
+	padding-left: 30px;
+	width: 250px;
+	float: left;
+}
+
+#leftfooter a {
+	margin-right: 17px;
+}
+
+#rightfooter {
+	width: 201px;
+	float: right;
+	padding: 0px;
+	margin-right: 20px;
+	text-align: right;
+}
+
+#rightfooter a {
+	padding-left: 17px;
+}
+
+input:focus {
+	border: 1px solid red;
+}
